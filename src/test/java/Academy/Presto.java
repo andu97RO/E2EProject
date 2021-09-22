@@ -43,10 +43,10 @@ public class Presto extends base {
         prestoHome.clickLogin();
         log.info("Clicked on login button");
 
-        prestoHome.fillUsername("bogdan.andrei450@gmail.com");
+        prestoHome.fillUsername("");
         log.info("Filled the username");
 
-        prestoHome.fillPassword("Georgiana14@");
+        prestoHome.fillPassword("");
         log.info("Filed the password");
 
         prestoHome.clickSubmit();
